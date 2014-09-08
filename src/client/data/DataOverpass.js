@@ -577,6 +577,8 @@
 			colour = 0xeeeeee;
 		} else if (tags["aeroway"] === "runway") {
 			colour = 0x666666;
+		} else if (tags["man_made"] === "bridge") {
+			colour = 0x9a9a9a;
 		} else {
 			VIZI.Log("Setting default colour for feaure", tags);
 			colour = 0xFF0000;
