@@ -499,10 +499,10 @@
 		} else if (tags["building"]) {
 			height = 10 + Math.random() * 10;
 		} else if (tags["landuse"] === "forest") {
-			height = 7;
+			height = 20;
 		// } else if (tags["waterway"] || tags["natural"] && /water|scrub/.test(tags["natural"]) || tags["leisure"] && /park|pitch/.test(tags["leisure"]) || tags["landuse"] && /grass|meadow|commercial|retail|industrial|brownfield/.test(tags["landuse"])) {
 		} else if (tags["waterway"] || tags["natural"] === "water") {
-			height = 4;
+			height = 0;
 		} else if (tags["natural"] === "scrub" || tags["leisure"] && /park|pitch/.test(tags["leisure"]) || tags["landuse"] && /grass|meadow/.test(tags["landuse"]) || tags["aeroway"] === "runway") {
 			height = 3;
 		} else {
