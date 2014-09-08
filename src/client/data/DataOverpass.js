@@ -31,7 +31,7 @@
 			"way({s},{w},{n},{e})[natural~%22water|scrub%22];" +
 			"way({s},{w},{n},{e})[leisure~%22park|pitch%22];" +
 			"way({s},{w},{n},{e})[landuse~%22grass|meadow|forest%22];" +
-			"way({s},{w},{n},{e})[man_made~%22bridge%22];" +
+			"way({s},{w},{n},{e})[man_made=%22bridge%22];" +
 			((VIZI.ENABLE_ROADS) ? "way({s},{w},{n},{e})[highway~%22motorway|trunk|primary|secondary|tertiary|motorway_link|primary_link|secondary_link|tertiary_link|road%22];" : "") +
 			");(._;node(w);););out;";
 
