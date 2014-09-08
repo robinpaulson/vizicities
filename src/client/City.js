@@ -72,7 +72,7 @@
 		}
 
 		_.defaults(options, {
-			coords: [-0.01924, 51.50358],
+			coords: [174.76260, -36.84877],
 			capZoom: true,
 			capOrbit: true,
 			overpass: true,
