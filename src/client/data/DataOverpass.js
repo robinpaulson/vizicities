@@ -610,7 +610,7 @@
 		
 		return (
 			tags && 
-			(tags["building"] || tags["building:part"] || tags["waterway"] || tags["natural"] || tags["landuse"] || tags["leisure"] || tags["aeroway"] || (tags["highway"] && !tags["area"]))
+			(tags["building"] || tags["building:part"] || tags["waterway"] || tags["natural"] || tags["landuse"] || tags["leisure"] || tags["aeroway"] || tags["man_made"] || (tags["highway"] && !tags["area"]))
 		);
 	};
 }());
