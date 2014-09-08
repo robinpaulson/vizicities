@@ -506,11 +506,17 @@
 			height = 20;
 		} else if (tags["natural"] === "wood") {
 			height = 20;
+		} else if (tags["natural"] === "scrub") {
+			height = 3;
+		} else if (tags["man_made"] === "bridge") {
+			height = 20;
+		} else if (tags["bridge"] === "yes") {
+			height = 20;
 		// } else if (tags["waterway"] || tags["natural"] && /water|scrub/.test(tags["natural"]) || tags["leisure"] && /park|pitch/.test(tags["leisure"]) || tags["landuse"] && /grass|meadow|commercial|retail|industrial|brownfield/.test(tags["landuse"])) {
 		} else if (tags["waterway"] || tags["natural"] === "water") {
 			height = 0;
-		} else if (tags["natural"] === "scrub" || tags["leisure"] && /park|pitch/.test(tags["leisure"]) || tags["landuse"] && /grass|meadow/.test(tags["landuse"]) || tags["aeroway"] === "runway") {
-			height = 3;
+		} else if (tags["leisure"] && /park|pitch/.test(tags["leisure"]) || tags["landuse"] && /grass|meadow/.test(tags["landuse"]) || tags["aeroway"] === "runway") {
+			height = 1;
 		} else {
 			height = 1;
 		}
