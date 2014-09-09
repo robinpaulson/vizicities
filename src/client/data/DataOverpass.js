@@ -51,7 +51,7 @@
 			");(._;node(w);););out;";
 
 		// URL of data source
-		this.urlBase = "http://overpass-api.de/api/interpreter?data=";
+		this.urlBase = "https://overpass-api.de/api/interpreter?data=";
 		// this.urlBase = "http://overpass.osm.rambler.ru/cgi/interpreter?data=";
 		// this.urlBase = "http://api.openstreetmap.fr/oapi/interpreter?data=";
 		this.urlHigh = this.urlBase + this.queryHigh;
