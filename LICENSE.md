@@ -1,6 +1,6 @@
 # ViziCities License
 
-Original work Copyright (c) 2014 - Robin Hawkes & Peter Smart, released under the MIT License, and available at >https://github.com/robhawkes/vizicities>
+Original work Copyright (c) 2014 - Robin Hawkes & Peter Smart, released under the MIT License, and available at https://github.com/robhawkes/vizicities
 This fork is relicensed under the GNU Affero GPL, version 3
 
 ====================
